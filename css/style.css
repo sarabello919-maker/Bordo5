@@ -483,17 +483,15 @@ main{
   }
 
   
-  .row.py-4.g-5,
-  #contatti.row {
-    display: flex !important;
-    flex-wrap: nowrap !important;
-  }
+.row.py-4.g-5 {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+}
 
-  .row.py-4.g-5 > div,
-  #contatti > div {
-    flex: 0 0 50% !important;
-    max-width: 50% !important;
-  }
+.row.py-4.g-5 > div {
+  flex: 0 0 50% !important;
+  max-width: 50% !important;
+}
 
   #contatti p.fs-4 {
     font-size: 20px !important;
@@ -510,6 +508,7 @@ main{
 }
 
 /*MOBILE (≤ 768px)*/
+/* MOBILE (≤ 768px) */
 
 @media (max-width: 768px) {
 
@@ -521,36 +520,33 @@ main{
     padding: 25px 20px;
   }
 
-  .hero img{
-     width: 320px;
-     margin: auto;
+  .hero img {
+    width: 320px;
+    margin: auto;
   }
 
-  .titoli h1{
+  .titoli h1 {
     font-size: 24px;
     letter-spacing: 1px;
-    word-wrap:break-word;
+    word-wrap: break-word;
     padding: 0 10px;
-}
+  }
 
-.titoli h2{
-      font-size: 16px;
-      padding: 0 15px;
-}
+  .titoli h2 {
+    font-size: 16px;
+    padding: 0 15px;
+  }
 
+  /* CONTATTI MOBILE */
+  #contatti {
+    display: block !important;
+  }
 
-#contatti div.text-center{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#contatti .btn{
-  display: block;
-  margin: 8px auto !important;
-  width: 140px;
-  text-align: center;
-}
+  #contatti > div {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: none !important;
+  }
 
   .hero-menu {
     background-position: 126px 237px;
@@ -561,7 +557,7 @@ main{
     font-size: 17px;
   }
 
-  nav ul{
+  nav ul {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -600,6 +596,8 @@ main{
     display: block;
   }
 }
+
+
 
 /* SMALL MOBILE (≤ 576px) */
 
