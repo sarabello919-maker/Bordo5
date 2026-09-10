@@ -538,7 +538,7 @@ main{
       padding: 0 15px;
 }
   #contatti a {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .hero-menu {
@@ -550,14 +550,13 @@ main{
     font-size: 17px;
   }
 
-  .nav ul{
+  nav ul{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15px;
     padding: 0;
   }
-
 
 
   .nav-piatti {
