@@ -537,8 +537,10 @@ main{
       font-size: 16px;
       padding: 0 15px;
 }
-  #contatti a {
-    font-size: 16px;
+
+  #contatti .btn {
+    font-size: 16px !important;
+    padding: 10px 15px !important;
   }
 
   .hero-menu {
@@ -557,7 +559,6 @@ main{
     gap: 15px;
     padding: 0;
   }
-
 
   .nav-piatti {
     width: 100% !important;
