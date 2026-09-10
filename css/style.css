@@ -544,13 +544,16 @@ main{
     flex-direction: column;
     align-items: center;
     padding-top: 10px;
+    min-height: 48px;
+    justify-content: center;
 }
-  #contatti .btn{
+
+#contatti .btn{
   display: block;
   margin: 8px auto;
   width: 140px;
   text-align: center;
-  }
+}
 
   .hero-menu {
     background-position: 126px 237px;
