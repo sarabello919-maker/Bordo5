@@ -543,14 +543,11 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 10px;
-    min-height: 30px;
-    justify-content: center;
 }
 
 #contatti .btn{
   display: block;
-  margin: 8px auto;
+  margin: 8px auto !important;
   width: 140px;
   text-align: center;
 }
