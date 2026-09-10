@@ -544,7 +544,7 @@ main{
     flex-direction: column;
     align-items: center;
     padding-top: 10px;
-    min-height: 48px;
+    min-height: 30px;
     justify-content: center;
 }
 
