@@ -1,0 +1,650 @@
+
+@font-face{
+    font-family:Quicksand;
+    src: url('../font/Quicksand-Bold.ttf');
+}
+
+
+@font-face{
+    font-family:Quicksand-semi;
+    src: url(../font/Quicksand-SemiBold.ttf)
+}
+
+@font-face{
+    font-family:Quicksand-regular;
+    src: url('../font/Quicksand-Regular.ttf');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    font-family:Quicksand;
+}
+
+h2{
+    font-family:Quicksand-semi;
+}
+
+
+p{
+  font-family:Quicksand-regular;
+}
+
+
+html{
+    overflow-y: scroll !important;
+    scroll-behavior: smooth !important;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+
+header{
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+
+/* LOGO */
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  width: 200px;
+  height: auto;
+  display: block;
+  transition: 0.2s;
+}
+
+/* MENU */
+nav ul{
+  font-family: Quicksand;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+/* LINK */
+nav li a{
+  text-decoration: none;
+  color: #111;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav li a:hover{
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: #fc3;
+  text-decoration-thickness: 2px;
+}
+
+/* DROPDOWN */
+.dropdown-toggle::after{
+  display: none;
+}
+
+.dropdown button{
+  background-color: #ffc107;
+  border: 3px solid #ffc107;
+  font-size: 18px;
+  padding: 8px 12px;
+  border-radius: 20px;
+  transition: 0.2s;
+  text-transform: uppercase;
+}
+
+.dropdown button:hover{
+  background-color: transparent !important;
+  color: #111 !important;
+  border: 3px solid #111;
+}
+
+.dropdown-menu a:hover{
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #fff;
+  color: #ffc107;
+}
+
+.hamburger{
+  display:none;
+  font-size:30px;
+  background:none;
+  border:none;
+  cursor:pointer;
+}
+
+/* desktop */
+nav ul{
+  display:flex;
+  gap:30px;
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+/* --------------------------------chiudee header------------------------------------------------------------------*/
+
+
+main{
+    background-color: #eee;
+}
+
+
+.hero {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.hero img{
+    width: 585px;
+    height: auto;
+    display: block;
+    margin: 0 auto -26px auto;
+}
+
+.titoli h1{
+    color: #222;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.titoli h2{
+  color: #555;
+  text-align: center;
+}
+
+.parallax{
+    background-image: url(../img/pizza.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 800px;
+    margin: 80px 0;
+}
+
+
+.parallax-1{
+    background-image: url(../img/impasto\ pizza.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 800px;
+    margin: 80px 0;
+}
+
+
+
+.blocco-recensioni{
+    width: 100%;
+    max-width: 1100px;
+    margin: 60px auto;
+    border-radius: 20px;
+    height: 420px;
+    overflow: hidden;
+}
+
+/* BLOCCA ALTEZZA */
+.recensioni,
+.carousel,
+.carousel-inner,
+.carousel-item{
+    height: 100%;
+}
+
+.recensione-box{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 30px;
+}
+
+.recensione-box{
+    font-size: 19px;
+}
+
+.nome{
+   font-size: 18px;
+   font-weight: bold;
+}
+
+#contatti a{
+    text-decoration: none;
+    color: #111;
+}
+
+#contatti a:hover{
+    color: #ffc107;
+    font-weight: bold;
+}
+/*------------------------------------chiude main---------------------------------------------------------------*/
+
+footer{
+    background-color: #111;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+footer a{
+    color: #fc3;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 18px;  
+}
+
+footer p a:hover{
+    color: #666;
+}
+
+footer p i{
+ color: #fc3;
+ padding: 0 10px;
+ font-size: 25px;
+   
+}
+
+footer p i:hover{
+ color: #666;
+}
+
+
+footer hr{
+    border: 2px solid #444;
+    margin-top: 40px;
+}
+
+
+/*--------------------footer crediti-----------------------------------------------------------*/
+.crediti {
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    color: #777;
+    line-height: 1.6;
+}
+
+.crediti div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+}
+
+.crediti p{
+    color: #999;
+    font-size: 16px;
+}
+
+
+.crediti a {
+    color: #999;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.crediti a:hover {
+    color: #fff;
+}
+
+/*--------------------chiude footer-----------------------------------------------------------*/
+
+.tornasu{
+    font-size: 40px;
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+}
+
+.tornasu i{
+    color: #fc3;
+}
+
+
+/*--------------------pagina per il menu-----------------------------------------------------------*/
+
+.menu{
+    background-color: #eee;
+}
+
+.illustrazione-ingredienti {
+    text-align: center;
+    padding-top: 90px;
+}
+
+.illustrazione-ingredienti img {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto -16px auto;
+    filter: brightness(0.95); /* 10% più scura */
+
+}
+
+.hero-menu h1{
+    color: #222;
+    padding-top: 29px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.hero-menu p{
+    color: #555;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.nav-piatti{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.nav-piatti nav ul {
+    display: flex;
+    gap: 60px;
+}
+
+
+.nav-piatti a{
+    text-decoration: none;
+    color: #111;
+    font-size: 25px;
+}
+
+.nav-piatti a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffc107;
+  transition: 0.3s;
+}
+
+/*---------------------piatti--------------------------------------*/
+.menu-item {
+    align-items: flex-start;
+}
+
+.menu-text {
+    flex: 1;
+}
+
+.menu-text p:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.menu-text p:first-child::after {
+    content: "";
+    flex: 1;
+    border-bottom: 2px dotted #777;
+    margin: 0 12px;
+}
+
+.menu-price {
+    white-space: nowrap;
+}
+
+.dish {
+  display: none;
+}
+
+.dish.active{
+  display: block;
+}
+
+main{
+    padding-bottom: 100px;
+    
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+
+/* TABLET (≤ 991px)*/
+
+@media (max-width: 991.98px) {
+
+  .hero-menu {
+    background-position: 232px 237px;
+    height: 640px;
+  }
+
+  .hero img{
+     width: 350px;
+    
+  }
+
+  .titoli h1{
+    font-size: 40px;
+}
+
+.titoli h2{
+   font-size: 28px;
+}
+
+.nav-piatti{
+  margin-top: -378px;
+}
+
+  .nav-piatti ul {
+    gap: 25px;
+  }
+
+  .dropdown button {
+    font-size: 16px;
+  }
+
+  .nav-piatti a {
+    font-size: 20px;
+  }
+
+  
+  .row.py-4.g-5,
+  #contatti.row {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+  }
+
+  .row.py-4.g-5 > div,
+  #contatti > div {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+
+  #contatti p.fs-4 {
+    font-size: 20px !important;
+  }
+
+  #contatti p.fs-5 {
+    font-size: 18px !important;
+  }
+
+  #contatti .btn {
+    font-size: 16px !important;
+    padding: 10px 15px !important;
+  }
+}
+
+/*MOBILE (≤ 768px)*/
+
+@media (max-width: 768px) {
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 25px 20px;
+  }
+
+  .hero img{
+     width: 320px;
+     margin: auto;
+  }
+
+  .titoli h1{
+    font-size: 24px;
+    letter-spacing: 1px;
+    word-wrap:break-word;
+    padding: 0 10px;
+}
+
+.titoli h2{
+      font-size: 16px;
+      padding: 0 15px;
+}
+  #contatti a {
+    font-size: 16px;
+  }
+
+  .hero-menu {
+    background-position: 126px 237px;
+    height: 640px;
+  }
+
+  .hero-menu p {
+    font-size: 17px;
+  }
+
+  nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 0;
+    flex-direction: column;
+  }
+
+
+  .nav-piatti {
+    width: 100% !important;
+    display: block !important;
+  }
+
+  .nav-piatti ul {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 12px !important;
+    padding: 10px 0 10px 25px !important;
+    margin: 0 !important;
+  }
+
+  .nav-piatti a {
+    font-size: 20px !important;
+    white-space: nowrap;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  #nav {
+    display: none;
+  }
+
+  #nav.active {
+    display: block;
+  }
+}
+
+/* SMALL MOBILE (≤ 576px) */
+
+@media (max-width: 576px) {
+
+    .hero img{
+     width: 250px;
+    
+  }
+.titoli h1{
+    font-size: 25px;
+    padding-top: -50px;
+}
+
+.titoli h2{
+      font-size: 19px;
+}
+  .hero-menu{
+    background-position: 17px 237px;
+    height: 626px;  
+  }
+  
+ .hero-menu h1{
+  font-size: 50px;
+ }
+
+  .nav-piatti a {
+    font-size: 16px !important;
+  }
+
+  .row.py-4.g-5,
+  #contatti.row {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+  }
+
+  .row.py-4.g-5 > div,
+  #contatti > div {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+
+  #contatti p.fs-4 {
+    font-size: 15px !important;
+  }
+
+  #contatti p.fs-5 {
+    font-size: 13px !important;
+  }
+
+  #contatti .btn {
+    font-size: 12px !important;
+    padding: 8px 18px !important;
+  }
+}
+
+
