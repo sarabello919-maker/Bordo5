@@ -538,13 +538,18 @@ main{
       padding: 0 15px;
 }
 
-  #contatti .col-12 {
+
+#contatti div.text-center{
     display: flex;
     flex-direction: column;
-  }
-
-    #contatti .text-center:last-child{
-   margin-top: auto;
+    align-items: center;
+    padding-top: 10px;
+}
+  #contatti .btn{
+  display: block;
+  margin: 8px auto;
+  width: 140px;
+  text-align: center;
   }
 
   .hero-menu {
