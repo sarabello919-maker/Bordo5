@@ -672,3 +672,17 @@ main{
 }
 
 
+/* PROBLEMA : COLORE LINK PRENOTA */
+
+.dropdown a,
+.dropdown a:visited,
+.dropdown a:focus,
+.dropdown a:active {
+    color: #111 !important;
+    text-decoration: none !important;
+}
+
+.dropdown a:hover {
+    color: #ffc107 !important;
+    text-decoration: none !important;
+}
