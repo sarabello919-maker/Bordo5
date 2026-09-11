@@ -105,7 +105,6 @@ nav li a:hover{
 .dropdown button{
   background-color: #ffc107;
   border: 3px solid #ffc107;
-  text-decoration: none;
   font-size: 18px;
   padding: 8px 12px;
   border-radius: 20px;
@@ -115,12 +114,12 @@ nav li a:hover{
 
 .dropdown button:hover{
   background-color: transparent !important;
+  text-decoration: none;
   color: #111 !important;
   border: 3px solid #111;
 }
 
 .dropdown-menu a:hover{
-  text-decoration: none;
   font-weight: bold;
   background-color: #fff;
   color: #ffc107;
