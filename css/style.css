@@ -454,22 +454,34 @@ main{
     height: 640px;
   }
 
-  .hero img{
-     width: 350px;
-    
+  .hero img {
+    width: 350px;
   }
- 
-  .titoli h1{
+
+  .titoli h1 {
     font-size: 40px;
-}
+  }
 
-  .titoli h2{
-   font-size: 28px;
-}
+  .titoli h2 {
+    font-size: 28px;
+  }
 
-.nav-piatti{
-  margin-top: -378px;
-}
+  /* FOTO TABLET */
+  .parallax,
+  .parallax-1 {
+    width: 100%;
+    height: 350px;
+    margin: 40px 0;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-color: #eee;
+  }
+
+  .nav-piatti {
+    margin-top: -378px;
+  }
 
   .nav-piatti ul {
     gap: 25px;
@@ -483,16 +495,15 @@ main{
     font-size: 20px;
   }
 
-  
-.row.py-4.g-5 {
-  display: flex !important;
-  flex-wrap: nowrap !important;
-}
+  .row.py-4.g-5 {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+  }
 
-.row.py-4.g-5 > div {
-  flex: 0 0 50% !important;
-  max-width: 50% !important;
-}
+  .row.py-4.g-5 > div {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
 
   #contatti p.fs-4 {
     font-size: 20px !important;
@@ -510,18 +521,20 @@ main{
 
 @media (min-width: 769px) and (max-width: 991.98px) {
 
-    .parallax {
-        background: red !important;
-        height: 200px !important;
-    }
-
+    .parallax,
     .parallax-1 {
-        background: blue !important;
-        height: 200px !important;
+        width: 100%;
+        height: 350px;
+        margin: 40px 0;
+
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-color: #eee;
     }
 
 }
-
 /* MOBILE (≤ 768px) */
 
 @media (max-width: 768px) {
