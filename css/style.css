@@ -676,6 +676,20 @@ main{
 }
 
 
+@media (min-width: 769px) and (max-width: 991.98px) {
+
+    .parallax,
+    .parallax-1 {
+        height: 500px;
+        background-size: 100% auto;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    }
+
+}
+
+
 /* PROBLEMA : COLORE LINK PRENOTA */
 
 .dropdown a,
