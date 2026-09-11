@@ -546,7 +546,7 @@ main{
 
   .parallax,
   .parallax-1 {
-    height: 400px;
+    height: 450px;
     background-size: cover;
     background-position: center center;
     background-attachment: scroll;
@@ -633,7 +633,7 @@ main{
 
   .parallax,
   .parallax-1 {
-      height: 300px;
+      height: 400px;
       background-size: cover;
       background-position: center center;
       background-attachment: scroll;
