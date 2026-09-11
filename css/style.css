@@ -176,28 +176,28 @@ main{
   text-align: center;
 }
 
-.parallax{
-    background-image: url(../img/pizza.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+.parallax,
+.parallax-1 {
     width: 100%;
     height: 800px;
     margin: 80px 0;
-}
 
-
-.parallax-1{
-    background-image: url(../img/impasto\ pizza.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
+
+    /* Parallax su PC */
     background-attachment: fixed;
-    width: 100%;
-    height: 800px;
-    margin: 80px 0;
 }
+
+.parallax {
+    background-image: url('../img/pizza.jpg');
+}
+
+.parallax-1 {
+    background-image: url('../img/impasto pizza.jpg');
+}
+
 
 
 
@@ -457,13 +457,22 @@ main{
      width: 350px;
     
   }
-
+ 
   .titoli h1{
     font-size: 40px;
 }
 
-.titoli h2{
+  .titoli h2{
    font-size: 28px;
+}
+
+
+  .parallax,
+  .parallax-1 {
+        height: 500px;
+        background-attachment: fixed;
+        background-size: 120% auto;
+        background-position: center center;
 }
 
 .nav-piatti{
@@ -537,7 +546,16 @@ main{
     padding: 0 15px;
   }
 
-  /* CONTATTI MOBILE */
+
+  .parallax,
+  .parallax-1 {
+        height: 300px;
+        background-attachment: fixed;
+        background-size: auto 100%;
+        background-position: center center;
+}
+
+
   #contatti {
     display: block !important;
   }
@@ -603,7 +621,7 @@ main{
 
 @media (max-width: 576px) {
 
-    .hero img{
+   .hero img{
      width: 250px;
     
   }
@@ -613,8 +631,18 @@ main{
 }
 
 .titoli h2{
-      font-size: 19px;
+  font-size: 19px;
 }
+
+
+  .parallax,
+  .parallax-1 {
+    height: 300px;
+    background-attachment: fixed;
+    background-size: auto 100%;
+    background-position: center center;
+    }
+
   .hero-menu{
     background-position: 17px 237px;
     height: 626px;  
