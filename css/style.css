@@ -467,12 +467,10 @@ main{
    font-size: 28px;
 }
 
-  .parallax,
-  .parallax-1 {
-    height: auto;
-    min-height: 100px;
-
-    background-size: 100% auto;
+.parallax,
+.parallax-1 {
+    height: 650px;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -520,13 +518,13 @@ main{
   }
 }
 
-
 @media (min-width: 769px) and (max-width: 991.98px) {
 
     .parallax,
     .parallax-1 {
-        height: 100px;
-        background-size: 100% auto;
+        height: 350px;
+        margin: 40px 0;
+        background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
         background-attachment: scroll;
