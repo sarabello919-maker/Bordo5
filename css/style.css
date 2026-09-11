@@ -467,14 +467,15 @@ main{
    font-size: 28px;
 }
 
-.parallax,
-.parallax-1 {
+  .parallax,
+  .parallax-1 {
     height: 500px;
-    background-size: cover;
+    background-size: 100% auto;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: scroll;
-}
+  }
+
 
 .nav-piatti{
   margin-top: -378px;
