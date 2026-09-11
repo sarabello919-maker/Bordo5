@@ -466,11 +466,11 @@ main{
 
   .parallax,
   .parallax-1 {
-    height: 500px;
+    height: 650px;
     background-size: cover;
     background-position: center center;
     background-attachment: scroll;
-}
+  }
 
 .nav-piatti{
   margin-top: -378px;
@@ -546,11 +546,11 @@ main{
 
   .parallax,
   .parallax-1 {
-    height: 450px;
+    height: 550px;
     background-size: cover;
     background-position: center center;
     background-attachment: scroll;
-}
+  }
 
   #contatti {
     display: block !important;
@@ -633,11 +633,11 @@ main{
 
   .parallax,
   .parallax-1 {
-      height: 400px;
-      background-size: cover;
-      background-position: center center;
-      background-attachment: scroll;
-}
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+  }
 
   .hero-menu{
     background-position: 17px 237px;
