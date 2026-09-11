@@ -469,12 +469,14 @@ main{
 
   .parallax,
   .parallax-1 {
-    height: 500px;
+    height: auto;
+    min-height: 350px;
+
     background-size: 100% auto;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: scroll;
-  }
+}
 
 
 .nav-piatti{
