@@ -183,10 +183,10 @@ main{
     margin: 80px 0;
 
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
 
-    /* Parallax su PC */
+    /* PARALLAX ATTIVO SU PC */
     background-attachment: fixed;
 }
 
@@ -197,8 +197,6 @@ main{
 .parallax-1 {
     background-image: url('../img/impasto pizza.jpg');
 }
-
-
 
 
 .blocco-recensioni{
@@ -466,13 +464,12 @@ main{
    font-size: 28px;
 }
 
-
   .parallax,
   .parallax-1 {
-        height: 500px;
-        background-attachment: fixed;
-        background-size: 120% auto;
-        background-position: center center;
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
 }
 
 .nav-piatti{
@@ -516,7 +513,7 @@ main{
   }
 }
 
-/*MOBILE (≤ 768px)*/
+
 /* MOBILE (≤ 768px) */
 
 @media (max-width: 768px) {
@@ -549,12 +546,11 @@ main{
 
   .parallax,
   .parallax-1 {
-        height: 300px;
-        background-attachment: fixed;
-        background-size: auto 100%;
-        background-position: center center;
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
 }
-
 
   #contatti {
     display: block !important;
@@ -637,16 +633,16 @@ main{
 
   .parallax,
   .parallax-1 {
-    height: 300px;
-    background-attachment: fixed;
-    background-size: auto 100%;
-    background-position: center center;
-    }
+      height: 300px;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: scroll;
+}
 
   .hero-menu{
     background-position: 17px 237px;
     height: 626px;  
-  }
+}
   
  .hero-menu h1{
   font-size: 50px;
