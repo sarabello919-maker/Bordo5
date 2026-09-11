@@ -510,14 +510,14 @@ main{
 
 @media (min-width: 769px) and (max-width: 991.98px) {
 
-    .parallax,
+    .parallax {
+        background: red !important;
+        height: 200px !important;
+    }
+
     .parallax-1 {
-        height: 450px;
-        margin: 40px 0;
-        background-size: contain;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-attachment: scroll;
+        background: blue !important;
+        height: 200px !important;
     }
 
 }
