@@ -518,23 +518,23 @@ main{
   }
 }
 
-@media screen 
-and (orientation: landscape)
-and (pointer: coarse)
-and (hover: none)
-and (min-width: 768px)
-and (max-height: 1100px) {
+  @media screen 
+  and (orientation: landscape)
+  and (pointer: coarse)
+  and (hover: none)
+  and (min-width: 768px)
+  and (max-height: 1100px) {
 
-    .parallax,
-    .parallax-1 {
-        width: 100% !important;
-        height: 650px !important;
-        min-height: 650px !important;
-        margin: 30px 0 !important;
-        background-size: cover !important;
-        background-position: center center !important;
-        background-repeat: no-repeat !important;
-        background-attachment: scroll !important;
+  .parallax,
+  .parallax-1 {
+      width: 100% !important;
+      height: 650px !important;
+      min-height: 650px !important;
+      margin: 30px 0 !important;
+      background-size: cover !important;
+      background-position: center center !important;
+      background-repeat: no-repeat !important;
+      background-attachment: scroll !important;
     }
 }
 
@@ -677,6 +677,19 @@ and (orientation: portrait) {
   }
 }
 
+.illustrazione-ingredienti img{
+     width: 300px;
+    margin: auto;
+}
+
+.hero-menu h1{
+  font-size: 30px;
+}
+
+.hero-menu p{
+  font-size: 20px;
+
+}
 
 /*-----------------------------------------------------------------*/
 
@@ -735,6 +748,21 @@ and (orientation: portrait) {
     padding: 8px 18px !important;
   }
 }
+
+.illustrazione-ingredienti img{
+     width: 200px;
+    margin: auto;
+}
+
+.hero-menu h1{
+  font-size: 20px;
+}
+
+.hero-menu p{
+  font-size: 16px;
+
+}
+
 
 /*-----------------------------------------------------------------*/
 
