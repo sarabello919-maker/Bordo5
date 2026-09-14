@@ -695,7 +695,7 @@ and (orientation: portrait) {
 
 @media (max-width: 576px) {
 
- /*  .hero img{
+  .hero img{
      width: 250px;
     
   }
@@ -709,8 +709,10 @@ and (orientation: portrait) {
 }
 
 
-.text-center{
-  margin: 0 10px !important;
+.testo{
+    font-size: 16px;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
 }
 
 
@@ -748,75 +750,8 @@ and (orientation: portrait) {
     font-size: 12px !important;
     padding: 8px 18px !important;
   }
-} */
-
-/* HERO */
-  .hero img {
-    width: 250px;
-  }
-
-
-  /* TITOLI */
-  .titoli h1 {
-    font-size: 25px;
-    margin-top: -50px;
-  }
-
-  .titoli h2 {
-    font-size: 19px;
-  }
-
-
-  /* TESTO
-     Più spazio a destra e sinistra sui dispositivi piccoli */
-  .text-center {
-    margin-left: 20px !important;
-    margin-right: 20px !important;
-  }
-
-
-  /* PARALLAX */
-  .parallax,
-  .parallax-1 {
-    height: 500px;
-    margin: 25px 0;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: scroll;
-  }
-
-
-  /* HERO MENU */
-  .hero-menu {
-    background-position: 17px 237px;
-    height: 626px;
-  }
-
-  .hero-menu h1 {
-    font-size: 50px;
-  }
-
-
-  /* NAVIGAZIONE PIATTI */
-  .nav-piatti a {
-    font-size: 16px !important;
-  }
-
-
-  /* CONTATTI */
-  #contatti p.fs-4 {
-    font-size: 15px !important;
-  }
-
-  #contatti p.fs-5 {
-    font-size: 13px !important;
-  }
-
-  #contatti .btn {
-    font-size: 12px !important;
-    padding: 8px 18px !important;
-  }
 }
+
 
 /*-----------------------------------------------------------------*/
 
