@@ -680,8 +680,6 @@ and (orientation: portrait) {
 
 /*-----------------------------------------------------------------*/
 
-
-
 /* SMALL MOBILE (≤ 576px) */
 
 @media (max-width: 576px) {
@@ -734,7 +732,25 @@ and (orientation: portrait) {
     font-size: 12px !important;
     padding: 8px 18px !important;
   }
+
+
+.illustrazione-ingredienti img {
+    width: 250px;
 }
+
+.hero-menu h1{
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.hero-menu p{
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+}
+
+
 
 /*-----------------------------------------------------------------*/
 
