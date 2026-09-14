@@ -520,7 +520,7 @@ main{
 }
 
 
-@media screen 
+/*@media screen 
 and (orientation: landscape)
 and (pointer: coarse)
 and (hover: none)
@@ -530,6 +530,27 @@ and (max-height: 1100px) {
     .parallax,
     .parallax-1 {
         height: 550px;
+        margin: 30px 0;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    }
+}*/
+
+
+
+@media screen 
+and (orientation: landscape)
+and (pointer: coarse)
+and (hover: none)
+and (min-width: 768px)
+and (max-height: 1100px) {
+
+    .parallax,
+    .parallax-1 {
+        height: 600px !important;
+        min-height: 600px !important;
         margin: 30px 0;
         background-size: cover;
         background-position: center center;
