@@ -735,22 +735,20 @@ and (orientation: portrait) {
 
 
 .illustrazione-ingredienti img {
-    width: 250px;
+    width: 270px;
 }
 
 .hero-menu h1{
     padding-top: 20px;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .hero-menu p{
-    padding-top: 10px;
+    padding: 10px 37px;
     font-size: 16px;
-}
 
 }
-
-
+}
 
 /*-----------------------------------------------------------------*/
 
