@@ -520,7 +520,7 @@ main{
 }
 
 
-@media screen and (max-width: 991.98px) and (orientation: landscape) {
+@media screen and (min-width: 768px) and (max-width: 1366px) and (orientation: landscape) {
     .parallax,
     .parallax-1 {
         height: 400px;
