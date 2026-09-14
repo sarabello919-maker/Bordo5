@@ -695,7 +695,7 @@ and (orientation: portrait) {
 
 @media (max-width: 576px) {
 
-  .hero img{
+   .hero img{
      width: 250px;
     
   }
@@ -709,9 +709,8 @@ and (orientation: portrait) {
 }
 
 
-.testo{
-    font-size: 16px !important;
-    padding: 0 15px !important;
+.text-center{
+  margin: 0 10px !important;
 }
 
 
