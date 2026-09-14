@@ -447,7 +447,7 @@ main{
 
 /* TABLET (≤ 991px)*/
 
-/*@media (max-width: 991.98px) {
+@media (max-width: 991.98px) {
 
   .hero-menu {
     background-position: 232px 237px;
@@ -466,7 +466,6 @@ main{
   .titoli h2{
    font-size: 28px;
 }
-
 
   .parallax,
   .parallax-1 {
@@ -531,9 +530,7 @@ and (max-height: 1100px) {
         width: 100% !important;
         height: 650px !important;
         min-height: 650px !important;
-
         margin: 30px 0 !important;
-
         background-size: cover !important;
         background-position: center center !important;
         background-repeat: no-repeat !important;
@@ -544,7 +541,7 @@ and (max-height: 1100px) {
 /*soluzione tablet orizzontale*/
 
 
-/*@media screen 
+@media screen 
 and (min-width: 768px)
 and (max-width: 991.98px)
 and (orientation: portrait) {
@@ -590,7 +587,7 @@ and (orientation: portrait) {
 
 /* MOBILE (≤ 768px) */
 
-/*@media (max-width: 768px) {
+@media (max-width: 768px) {
 
   header {
     flex-direction: column;
@@ -693,7 +690,7 @@ and (orientation: portrait) {
 
 /* SMALL MOBILE (≤ 576px) */
 
-/*@media (max-width: 576px) {
+@media (max-width: 576px) {
 
    .hero img{
      width: 250px;
@@ -750,396 +747,9 @@ and (orientation: portrait) {
   }
 }
 
-
 /*-----------------------------------------------------------------*/
 
 /* PROBLEMA : COLORE LINK PRENOTA */
-
-/*.dropdown a,
-.dropdown a:visited,
-.dropdown a:focus,
-.dropdown a:active {
-    color: #111 !important;
-    text-decoration: none !important;
-}
-
-.dropdown a:hover {
-    color: #ffc107 !important;
-    text-decoration: none !important;
-}/*
-
-/* =========================================================
-   TABLET PORTRAIT
-   768px - 991.98px
-   ========================================================= */
-
-@media screen
-and (min-width: 768px)
-and (max-width: 991.98px)
-and (orientation: portrait) {
-
-    /* HEADER */
-
-    header {
-        padding: 20px 25px;
-    }
-
-    .logo img {
-        width: 150px;
-    }
-
-    header nav ul {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-end;
-        gap: 15px;
-        flex-wrap: nowrap;
-    }
-
-    header nav li {
-        white-space: nowrap;
-    }
-
-    header nav li a {
-        font-size: 16px;
-        white-space: nowrap;
-    }
-
-    header .dropdown button {
-        font-size: 14px;
-        padding: 7px 10px;
-        white-space: nowrap;
-    }
-
-
-    /* HERO */
-
-    .hero-menu {
-        background-position: 232px 237px;
-        height: 640px;
-    }
-
-    .hero img {
-        width: 350px;
-    }
-
-
-    /* TITOLI */
-
-    .titoli h1 {
-        font-size: 40px;
-    }
-
-    .titoli h2 {
-        font-size: 28px;
-    }
-
-
-    /* PARALLAX */
-
-    .parallax,
-    .parallax-1 {
-        height: 550px;
-        margin: 30px 0;
-        background-size: cover;
-        background-position: center center;
-        background-attachment: scroll;
-    }
-
-
-    /* MENU PIATTI */
-
-    .nav-piatti {
-        margin-top: -378px;
-    }
-
-    .nav-piatti ul {
-        gap: 25px;
-    }
-
-    .nav-piatti a {
-        font-size: 20px;
-    }
-
-    .dropdown button {
-        font-size: 16px;
-    }
-
-
-    /* COLONNE */
-
-    .row.py-4.g-5 {
-        display: flex !important;
-        flex-wrap: nowrap !important;
-    }
-
-    .row.py-4.g-5 > div {
-        flex: 0 0 50% !important;
-        max-width: 50% !important;
-    }
-
-
-    /* CONTATTI */
-
-    #contatti p.fs-4 {
-        font-size: 20px !important;
-    }
-
-    #contatti p.fs-5 {
-        font-size: 18px !important;
-    }
-
-    #contatti .btn {
-        font-size: 16px !important;
-        padding: 10px 15px !important;
-    }
-}
-
-
-/* =========================================================
-   TABLET LANDSCAPE
-   768px - 991.98px
-   ========================================================= */
-
-@media screen
-and (min-width: 768px)
-and (max-width: 991.98px)
-and (orientation: landscape)
-and (pointer: coarse)
-and (hover: none) {
-
-    .parallax,
-    .parallax-1 {
-        width: 100% !important;
-        height: 650px !important;
-        min-height: 650px !important;
-
-        margin: 30px 0 !important;
-
-        background-size: cover !important;
-        background-position: center center !important;
-        background-repeat: no-repeat !important;
-        background-attachment: scroll !important;
-    }
-}
-
-
-/* =========================================================
-   TELEFONO
-   0px - 767.98px
-   ========================================================= */
-
-@media screen and (max-width: 767.98px) {
-
-    /* HEADER */
-
-    header {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-        padding: 25px 20px;
-    }
-
-
-    /* HERO */
-
-    .hero img {
-        width: 320px;
-        margin: auto;
-    }
-
-
-    /* TITOLI */
-
-    .titoli h1 {
-        font-size: 24px;
-        letter-spacing: 1px;
-        word-wrap: break-word;
-        padding: 0 10px;
-    }
-
-    .titoli h2 {
-        font-size: 16px;
-        padding: 0 15px;
-    }
-
-
-    /* PARALLAX */
-
-    .parallax,
-    .parallax-1 {
-        height: 550px;
-        margin: 30px 0;
-        background-size: cover;
-        background-position: center center;
-        background-attachment: scroll;
-    }
-
-
-    /* CONTATTI */
-
-    #contatti {
-        display: block !important;
-    }
-
-    #contatti > div {
-        width: 100% !important;
-        max-width: 100% !important;
-        flex: none !important;
-    }
-
-
-    /* HERO MENU */
-
-    .hero-menu {
-        background-position: 126px 237px;
-        height: 640px;
-    }
-
-    .hero-menu p {
-        font-size: 17px;
-    }
-
-
-    /* NAVIGAZIONE */
-
-    nav ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-        padding: 0;
-    }
-
-
-    /* MENU PIATTI */
-
-    .nav-piatti {
-        width: 100% !important;
-        display: block !important;
-    }
-
-    .nav-piatti ul {
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: flex-start !important;
-        gap: 12px !important;
-        padding: 10px 0 10px 25px !important;
-        margin: 0 !important;
-    }
-
-    .nav-piatti a {
-        font-size: 20px !important;
-        white-space: nowrap;
-    }
-
-
-    /* HAMBURGER */
-
-    .hamburger {
-        display: block;
-    }
-
-    #nav {
-        display: none;
-    }
-
-    #nav.active {
-        display: block;
-    }
-}
-
-
-/* =========================================================
-   TELEFONO PICCOLO
-   0px - 576px
-   ========================================================= */
-
-@media screen and (max-width: 576px) {
-
-    /* HERO */
-
-    .hero img {
-        width: 250px;
-    }
-
-
-    /* TITOLI */
-
-    .titoli h1 {
-        font-size: 25px;
-
-        /* Corretto: padding negativo non valido */
-        margin-top: -50px;
-    }
-
-    .titoli h2 {
-        font-size: 19px;
-    }
-
-
-    /* TESTO */
-
-    .testo {
-        font-size: 16px;
-        margin-left: 15px !important;
-        margin-right: 15px !important;
-    }
-
-
-    /* PARALLAX */
-
-    .parallax,
-    .parallax-1 {
-        height: 500px;
-        margin: 25px 0;
-        background-size: cover;
-        background-position: center center;
-        background-attachment: scroll;
-    }
-
-
-    /* HERO MENU */
-
-    .hero-menu {
-        background-position: 17px 237px;
-        height: 626px;
-    }
-
-    .hero-menu h1 {
-        font-size: 50px;
-    }
-
-
-    /* MENU PIATTI */
-
-    .nav-piatti a {
-        font-size: 16px !important;
-    }
-
-
-    /* CONTATTI */
-
-    #contatti p.fs-4 {
-        font-size: 15px !important;
-    }
-
-    #contatti p.fs-5 {
-        font-size: 13px !important;
-    }
-
-    #contatti .btn {
-        font-size: 12px !important;
-        padding: 8px 18px !important;
-    }
-}
-
-
-/* =========================================================
-   COLORE LINK "PRENOTA"
-   ========================================================= */
 
 .dropdown a,
 .dropdown a:visited,
