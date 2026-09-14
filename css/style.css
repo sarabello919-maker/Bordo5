@@ -520,24 +520,6 @@ main{
 }
 
 
-/*@media screen 
-and (orientation: landscape)
-and (pointer: coarse)
-and (hover: none)
-and (min-width: 768px)
-and (max-height: 1100px) {
-
-    .parallax,
-    .parallax-1 {
-        height: 550px;
-        margin: 30px 0;
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-    }
-}  questa soluzione funzionava ma le immagini rimangono una linea troppo stretta e poco larga*/
-
 
 @media screen 
 and (orientation: landscape)
@@ -560,6 +542,48 @@ and (max-height: 1100px) {
         background-attachment: scroll !important;
     }
 }
+
+/*soluzione tablet orizzontale*/
+
+
+@media screen 
+and (min-width: 768px)
+and (max-width: 991.98px)
+and (orientation: portrait) {
+
+    header {
+        padding: 20px 25px;
+    }
+
+    .logo img {
+        width: 150px;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 15px;
+        flex-wrap: nowrap;
+    }
+
+    header nav li {
+        white-space: nowrap;
+    }
+
+    header nav li a {
+        font-size: 16px;
+        white-space: nowrap;
+    }
+
+    header .dropdown button {
+        font-size: 14px;
+        padding: 7px 10px;
+        white-space: nowrap;
+    }
+}
+
 
 
 
