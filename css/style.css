@@ -706,11 +706,6 @@ and (orientation: portrait) {
 }
 
 
-.text-center{
-  margin: 0 10px !important;
-}
-
-
 .parallax,
 .parallax-1 {
     height: 500px;
