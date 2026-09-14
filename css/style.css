@@ -538,30 +538,14 @@ main{
   }
 
 
- /* .parallax,
+  .parallax,
   .parallax-1 {
     height: 550px;
     margin: 30px 0;
     background-size: cover;
     background-position: center center;
     background-attachment: scroll;
-  }*/
-
-    .parallax,
-    .parallax-1 {
-        height: 550px;
-        margin: 30px 0;
-        background-size: cover;
-        background-position: center center;
-        background-attachment: fixed;
-    }
-
-  /*prova di paralax funzionante*/
-
-
-
-
-
+  }
 
 
   #contatti {
@@ -642,28 +626,16 @@ main{
   font-size: 19px;
 }
 
-
 .parallax,
 .parallax-1 {
-        height: 450px;
-        margin: 20px 0;
-        background-size: cover;
-        background-position: center center;
-        background-attachment: fixed;
-}
-
-/*prova paralax funzionante*/
-
- /* .parallax,
-  .parallax-1 {
     height: 500px;
     margin: 25px 0;
     background-size: cover;
     background-position: center center;
     background-attachment: scroll;
-  }*/
+}
 
-  .hero-menu{
+.hero-menu{
     background-position: 17px 237px;
     height: 626px;  
 }
