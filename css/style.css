@@ -520,12 +520,20 @@ main{
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 1366px) and (orientation: landscape) {
+@media screen 
+and (orientation: landscape)
+and (pointer: coarse)
+and (hover: none)
+and (min-width: 768px)
+and (max-height: 1100px) {
+
     .parallax,
     .parallax-1 {
         height: 400px;
+        margin: 30px 0;
         background-size: cover;
         background-position: center center;
+        background-repeat: no-repeat;
         background-attachment: scroll;
     }
 }
