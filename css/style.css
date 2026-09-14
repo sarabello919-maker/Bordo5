@@ -169,7 +169,7 @@ main{
     color: #222;
     text-align: center;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
@@ -364,7 +364,7 @@ footer hr{
     padding-top: 29px;
     text-align: center;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
@@ -374,7 +374,7 @@ footer hr{
     padding-top: 10px;
     text-align: center;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
@@ -633,47 +633,9 @@ and (orientation: portrait) {
     height: 640px;
   }
 
- /* .hero-menu p {
+  .hero-menu p {
     font-size: 17px;
-  }*/
-
-
-  .hero-menu h1 {
-  color: #222;
-  padding-top: 20px;
-  text-align: center;
-  font-weight: bold;
-  font-size: 38px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  line-height: 1.1;
-}
-
-.hero-menu p {
-  color: #555;
-  padding: 8px 20px 0;
-  text-align: center;
-  font-weight: bold;
-  font-size: 17px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  line-height: 1.4;
-}
-
-.illustrazione-ingredienti {
-  text-align: center;
-  padding-top: 40px;
-}
-
-.illustrazione-ingredienti img {
-  width: 80%;
-  max-width: 300px;
-  height: auto;
-  display: block;
-  margin: 0 auto -10px auto;
-  filter: brightness(0.95);
-}
-/*--------------------*/
+  }
 
   nav ul {
     display: flex;
@@ -715,14 +677,6 @@ and (orientation: portrait) {
   }
 }
 
-.hero-menu h1{
-  font-size: 30px;
-}
-
-.hero-menu p{
-  font-size: 20px;
-
-}
 
 /*-----------------------------------------------------------------*/
 
@@ -760,40 +714,10 @@ and (orientation: portrait) {
     height: 626px;  
 }
   
-/* .hero-menu h1{
+ .hero-menu h1{
   font-size: 50px;
- }*/
+ }
 
-
-
-
-.hero-menu h1 {
-  padding-top: 15px;
-  font-size: 40px;
-  letter-spacing: 2px;
-  line-height: 1.1;
-}
-
-.hero-menu p {
-  font-size: 14px;
-  letter-spacing: 1.5px;
-  line-height: 1.4;
-  padding: 8px 15px 0;
-}
-
-.illustrazione-ingredienti {
-  padding-top: 25px;
-}
-
-.illustrazione-ingredienti img {
-  width: 85%;
-  max-width: 260px;
-  margin: 0 auto -10px auto;
-}
-
-
-
- /*----------------------------------*/
   .nav-piatti a {
     font-size: 16px !important;
   }
@@ -811,7 +735,6 @@ and (orientation: portrait) {
     padding: 8px 18px !important;
   }
 }
-
 
 /*-----------------------------------------------------------------*/
 
