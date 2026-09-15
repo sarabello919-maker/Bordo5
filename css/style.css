@@ -790,8 +790,13 @@ and (orientation: portrait) {
 
 .illustrazione-ingredienti img {
     width: 270px;
-    padding-top: 21px;
 }
+
+
+.illustrazione-ingredienti{
+  padding-top: 25px;
+}
+
 
 .hero-menu h1{
     padding-top: 20px;
