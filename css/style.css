@@ -554,6 +554,16 @@ and (orientation: portrait) {
         width: 150px;
     }
 
+
+  .titoli h1 {
+    font-size: 20px;
+    padding: 0 10px;
+  }
+
+  .titoli h2 {
+    font-size: 16px;
+  }
+
     header nav ul {
         display: flex;
         flex-direction: row;
@@ -742,7 +752,6 @@ and (orientation: portrait) {
 .titoli h2{
   font-size: 19px;
 }
-
 
 .parallax,
 .parallax-1 {
