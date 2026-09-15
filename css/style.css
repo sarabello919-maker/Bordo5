@@ -711,7 +711,7 @@ and (orientation: portrait) {
   align-items: center !important;
 
   gap: 20px !important;
-  padding: 10px 20px !important;
+  padding: 0px 20px !important;
   margin: 0 !important;
 
   width: 100% !important;
