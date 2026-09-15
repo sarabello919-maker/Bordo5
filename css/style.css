@@ -564,7 +564,7 @@ and (orientation: portrait) {
   }
 
   .illustrazione-ingredienti img {
-    width: 200px;
+    width: 350px;
 }
 
   header nav ul {
@@ -594,7 +594,7 @@ and (orientation: portrait) {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: -378px;
+    margin-top: -400px;
     padding-left: 0px;
   }
 
