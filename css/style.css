@@ -382,7 +382,7 @@ footer hr{
 .nav-piatti{
     display: flex;
     justify-content: center;
-    margin-top: 130px;
+    margin-top: 70px;
 }
 
 .nav-piatti nav ul {
@@ -478,7 +478,7 @@ main{
 
 
 .nav-piatti{
-  margin-top: -460px;
+  margin-top: -455px;
 }
 
   .nav-piatti ul {
@@ -548,6 +548,7 @@ main{
 .hero-menu p {
   font-size: 18px;
 }
+
 }
 
 /*soluzione tablet orizzontale*/
