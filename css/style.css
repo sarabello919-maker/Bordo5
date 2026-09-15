@@ -577,24 +577,23 @@ and (orientation: portrait) {
     font-size: 20px !important;
   }
 
-.nav-piatti {
+  .nav-piatti {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin-top: -378px;
-}
+    padding-left: 40px;
+    }
 
-.nav-piatti nav ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px !important;
-    padding: 0;
-    margin: 0;
+    .nav-piatti nav ul {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 15px !important;
+      padding: 0;
+      margin: 0;
+    }
 }
-
   
-}
-
 /*soluzione tablet menu verticale*/
 
 
