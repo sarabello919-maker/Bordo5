@@ -574,6 +574,7 @@ and (orientation: portrait) {
  
  .titoli h1{
   font-size: 30px;
+  padding: 0 10px;
 }
 
   .titoli h2{
