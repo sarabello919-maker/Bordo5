@@ -572,8 +572,8 @@ and (orientation: portrait) {
     white-space: nowrap;
   }
  
-  .titoli h1{
-  font-size: 40px;
+ .titoli h1{
+  font-size: 30px;
 }
 
   .titoli h2{
