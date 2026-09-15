@@ -612,7 +612,9 @@ and (orientation: portrait) {
   }
 
   .nav-piatti nav ul li:nth-child(3){
-    margin-right: 100%;
+    flex-basis: 100%;
+    width: 0;
+    height: 0;
   }
 }
   
