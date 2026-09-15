@@ -547,33 +547,36 @@ and (max-width: 991.98px)
 and (orientation: portrait) {
 
     header {
-        padding: 20px 25px;
+      padding: 20px 25px;
     }
 
     .logo img {
-        width: 150px;
+      width: 150px;
     }
 
-
   .titoli h1 {
-    font-size: 20px;
+    font-size: 30px;
     padding: 0 10px;
   }
 
   .titoli h2 {
-    font-size: 16px;
+    font-size: 20px;
   }
 
-    header nav ul {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-end;
-        gap: 15px;
-        flex-wrap: nowrap;
+  .illustrazione-ingredienti img {
+    width: 200px;
+}
+
+  header nav ul {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 15px;
+      flex-wrap: nowrap;
     }
 
-    header nav li {
+  header nav li {
       white-space: nowrap;
     }
 
@@ -608,10 +611,10 @@ and (orientation: portrait) {
     display: block;
     text-align: center;
     padding: 8px 18px;
-    border: 2px solid #222;
-    background-color: #222;
+    border: 2px solid #222!important;
+    background-color: #222!important;
     border-radius: 50px;
-    color: #fff;
+    color: #fff!important;
     font-weight: 600;
     text-decoration: none;
     white-space: nowrap;
@@ -619,8 +622,8 @@ and (orientation: portrait) {
 
   .nav-piatti nav ul li a:hover{
     background-color: transparent;
-    color: #ffc107;
-    border-color: #222;
+    color: #ffc107!important;
+    border-color: #222!important;
   }
 }
   
@@ -678,11 +681,6 @@ and (orientation: portrait) {
     max-width: 100% !important;
     flex: none !important;
   }
-
-
-  .illustrazione-ingredienti img {
-    width: 200px;
-}
 
   .hero-menu {
     background-position: 126px 237px;
