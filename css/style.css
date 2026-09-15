@@ -598,16 +598,19 @@ and (orientation: portrait) {
     display: block;
     text-align: center;
     padding: 8px 18px;
-    border: 2px solid #333;
+    border: 2px solid #222;
+    background-color: #222;
     border-radius: 50px;
-    color: #333;
+    color: #fff;
     font-weight: 600;
     text-decoration: none;
     white-space: nowrap;
   }
 
   .nav-piatti nav ul li a:hover{
-    border-color: #ffc107;
+    background-color: transparent;
+    color: #ffc107;
+    border-color: #222;
   }
 }
   
