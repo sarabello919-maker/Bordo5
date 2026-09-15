@@ -612,7 +612,7 @@ and (orientation: portrait) {
     text-align: center;
     padding: 8px 18px;
     border: 2px solid #222!important;
-    background-color: #222!important;
+    background-color: #222;
     border-radius: 50px;
     color: #fff!important;
     font-weight: 600;
