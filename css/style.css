@@ -585,7 +585,7 @@ and (orientation: portrait) {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: -438px;
+    margin-top: -400px;
     padding-left: 0px;
   }
 
