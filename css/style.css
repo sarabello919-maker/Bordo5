@@ -572,6 +572,14 @@ and (orientation: portrait) {
     white-space: nowrap;
   }
  
+  .titoli h1{
+  font-size: 40px;
+}
+
+  .titoli h2{
+   font-size: 20px;
+}
+
   .illustrazione-ingredienti img {
     width: 310px;
 }
