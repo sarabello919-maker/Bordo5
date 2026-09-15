@@ -564,7 +564,7 @@ and (orientation: portrait) {
     }
 
     header nav li {
-        white-space: nowrap;
+      white-space: nowrap;
     }
 
   header nav li a {
@@ -572,19 +572,6 @@ and (orientation: portrait) {
     white-space: nowrap;
   }
  
- .titoli h1{
-  font-size: 30px;
-  padding: 0 10px;
-}
-
-  .titoli h2{
-   font-size: 23px;
-}
-
-  .illustrazione-ingredienti img {
-    width: 310px;
-}
-
   .hero-menu p{
     padding: 0px 20px !important;
     font-size: 20px !important;
@@ -594,7 +581,7 @@ and (orientation: portrait) {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: -400px;
+    margin-top: -378px;
     padding-left: 0px;
   }
 
@@ -611,19 +598,16 @@ and (orientation: portrait) {
     display: block;
     text-align: center;
     padding: 8px 18px;
-    border: 2px solid #222!important;
-    background-color: #222;
+    border: 2px solid #333;
     border-radius: 50px;
-    color: #fff!important;
+    color: #333;
     font-weight: 600;
     text-decoration: none;
     white-space: nowrap;
   }
 
   .nav-piatti nav ul li a:hover{
-    background-color: transparent;
-    color: #ffc107 !important;
-    border: 2px solid #222!important; 
+    border-color: #ffc107;
   }
 }
   
@@ -631,6 +615,8 @@ and (orientation: portrait) {
 
 
 /*-----------------------------------------------------------------*/
+
+
 /* MOBILE (≤ 768px) */
 
 @media (max-width: 768px) {
@@ -697,17 +683,25 @@ and (orientation: portrait) {
     padding: 0;
   }
 
-.nav-piatti {
-  width: 100% !important;
-  display: block !important;
-  overflow: hidden !important;
-}
+  .nav-piatti {
+    width: 100% !important;
+    display: block !important;
+  }
 
+  .nav-piatti ul {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 12px !important;
+    padding: 10px 0 10px 25px !important;
+    margin: 0 !important;
+  }
 
+  .nav-piatti a {
+    font-size: 20px !important;
+    white-space: nowrap;
+  }
 
-
-
-/*-----------------------------------------------------------------*/
   .hamburger {
     display: block;
   }
@@ -720,6 +714,7 @@ and (orientation: portrait) {
     display: block;
   }
 }
+
 
 /*-----------------------------------------------------------------*/
 
@@ -789,12 +784,8 @@ and (orientation: portrait) {
     padding: 10px 37px;
     font-size: 16px;
 }
-
-.nav-piatti a {
-  font-size: 16px !important;
 }
 
-}
 
 /*-----------------------------------------------------------------*/
 /* PROBLEMA : COLORE LINK PRENOTA */
