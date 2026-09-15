@@ -573,7 +573,8 @@ and (orientation: portrait) {
   }
  
   .hero-menu p{
-    padding: 10px 37px;
+    color: #ffc107;
+    padding: 0px 20px;
     font-size: 20px;
   }
   
