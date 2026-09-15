@@ -610,6 +610,10 @@ and (orientation: portrait) {
   .nav-piatti nav ul li a:hover{
     border-color: #ffc107;
   }
+
+  .nav-piatti nav ul li:nth-child(3){
+    margin-right: 100%;
+  }
 }
   
 /*soluzione tablet menu verticale*/
