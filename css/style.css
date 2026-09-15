@@ -565,7 +565,9 @@ and (orientation: portrait) {
 
   .illustrazione-ingredienti img {
     width: 350px;
+    padding-top: 21px;
 }
+
 
   header nav ul {
       display: flex;
@@ -594,7 +596,7 @@ and (orientation: portrait) {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: -400px;
+    margin-top: -420px;
     padding-left: 0px;
   }
 
@@ -788,6 +790,7 @@ and (orientation: portrait) {
 
 .illustrazione-ingredienti img {
     width: 270px;
+    padding-top: 21px;
 }
 
 .hero-menu h1{
