@@ -631,8 +631,6 @@ and (orientation: portrait) {
 
 
 /*-----------------------------------------------------------------*/
-
-
 /* MOBILE (≤ 768px) */
 
 @media (max-width: 768px) {
@@ -699,25 +697,50 @@ and (orientation: portrait) {
     padding: 0;
   }
 
-  .nav-piatti {
-    width: 100% !important;
-    display: block !important;
-  }
+.nav-piatti {
+  width: 100% !important;
+  display: block !important;
+  overflow: hidden !important;
+}
 
-  .nav-piatti ul {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: flex-start !important;
-    gap: 12px !important;
-    padding: 10px 0 10px 25px !important;
-    margin: 0 !important;
-  }
+.nav-piatti ul {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
 
-  .nav-piatti a {
-    font-size: 20px !important;
-    white-space: nowrap;
-  }
+  gap: 20px !important;
+  padding: 10px 20px !important;
+  margin: 0 !important;
 
+  width: 100% !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+
+  white-space: nowrap !important;
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.nav-piatti ul::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-piatti li {
+  flex: 0 0 auto !important;
+  white-space: nowrap !important;
+}
+
+.nav-piatti a {
+  white-space: nowrap !important;
+  display: block !important;
+}
+
+
+
+/*-----------------------------------------------------------------*/
   .hamburger {
     display: block;
   }
@@ -730,7 +753,6 @@ and (orientation: portrait) {
     display: block;
   }
 }
-
 
 /*-----------------------------------------------------------------*/
 
@@ -800,8 +822,12 @@ and (orientation: portrait) {
     padding: 10px 37px;
     font-size: 16px;
 }
+
+.nav-piatti a {
+  font-size: 16px !important;
 }
 
+}
 
 /*-----------------------------------------------------------------*/
 /* PROBLEMA : COLORE LINK PRENOTA */
