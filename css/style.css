@@ -476,19 +476,7 @@ main{
     background-attachment: scroll;
 }
 
-  .illustrazione-ingredienti img {
-    width: 300px;
-}
 
-
-.hero-menu h1 {
-  font-size: 45px;
-}
-
-
-.hero-menu p {
-  font-size: 18px;
-}
 .nav-piatti{
   margin-top: -430px;
 }
@@ -548,6 +536,18 @@ main{
       background-repeat: no-repeat !important;
       background-attachment: scroll !important;
     }
+
+.illustrazione-ingredienti img {
+    width: 300px;
+}
+
+.hero-menu h1 {
+  font-size: 45px;
+}
+
+.hero-menu p {
+  font-size: 18px;
+}
 }
 
 /*soluzione tablet orizzontale*/
