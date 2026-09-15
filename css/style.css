@@ -476,9 +476,21 @@ main{
     background-attachment: scroll;
 }
 
+  .illustrazione-ingredienti img {
+    width: 300px;
+}
 
+
+.hero-menu h1 {
+  font-size: 45px;
+}
+
+
+.hero-menu p {
+  font-size: 18px;
+}
 .nav-piatti{
-  margin-top: -378px;
+  margin-top: -430px;
 }
 
   .nav-piatti ul {
@@ -808,8 +820,9 @@ and (orientation: portrait) {
 }
 }
 
-
 /*-----------------------------------------------------------------*/
+
+
 /* PROBLEMA : COLORE LINK PRENOTA */
 
 .dropdown a,
