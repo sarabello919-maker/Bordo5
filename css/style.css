@@ -572,6 +572,10 @@ and (orientation: portrait) {
     white-space: nowrap;
   }
  
+  .illustrazione-ingredienti img {
+    width: 310px;
+}
+
   .hero-menu p{
     padding: 0px 20px !important;
     font-size: 20px !important;
@@ -581,33 +585,36 @@ and (orientation: portrait) {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: -378px;
+    margin-top: -438px;
     padding-left: 0px;
-    }
+  }
 
-    .nav-piatti nav ul {
+  .nav-piatti nav ul {
       display: grid;
       grid-template-columns: repeat(3,auto);
       gap: 12px 16px;
       padding: 0;
       margin: 0;
       justify-content: center;
-    }
+  }
 
   .nav-piatti nav ul li a{
     display: block;
     text-align: center;
     padding: 8px 18px;
-    border: 2px solid #333;
+    border: 2px solid #111!important;
+    background-color: #111;
     border-radius: 50px;
-    color: #333;
+    color: #fff!important;
     font-weight: 600;
     text-decoration: none;
     white-space: nowrap;
   }
 
   .nav-piatti nav ul li a:hover{
-    border-color: #ffc107;
+    background-color: transparent;
+    color: #ffc107 !important;
+    border: 2px solid #111!important; 
   }
 }
   
