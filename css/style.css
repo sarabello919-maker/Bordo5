@@ -567,10 +567,16 @@ and (orientation: portrait) {
         white-space: nowrap;
     }
 
-    header nav li a {
-        font-size: 16px;
-        white-space: nowrap;
-    }
+  header nav li a {
+    font-size: 16px;
+    white-space: nowrap;
+  }
+ 
+  .hero-menu p{
+    padding: 10px 37px;
+    font-size: 20px;
+  }
+  
 }
 
 /*soluzione tablet menu verticale*/
@@ -733,7 +739,6 @@ and (orientation: portrait) {
     padding: 8px 18px !important;
   }
 
-
 .illustrazione-ingredienti img {
     width: 270px;
 }
@@ -746,12 +751,11 @@ and (orientation: portrait) {
 .hero-menu p{
     padding: 10px 37px;
     font-size: 16px;
+}
+}
 
-}
-}
 
 /*-----------------------------------------------------------------*/
-
 /* PROBLEMA : COLORE LINK PRENOTA */
 
 .dropdown a,
