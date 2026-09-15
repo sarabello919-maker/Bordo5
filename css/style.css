@@ -669,6 +669,11 @@ and (orientation: portrait) {
     flex: none !important;
   }
 
+
+  .illustrazione-ingredienti img {
+    width: 200px;
+}
+
   .hero-menu {
     background-position: 126px 237px;
     height: 640px;
