@@ -588,7 +588,7 @@ and (orientation: portrait) {
 
 .nav-piatti {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     margin-top: -378px;
     padding-left: 40px;
 }
