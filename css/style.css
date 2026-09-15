@@ -586,8 +586,10 @@ and (orientation: portrait) {
     }
 
     .nav-piatti nav ul {
-      display: grid;
-      grid-template-columns: repeat(3, auto);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 580px;
       gap: 12px 16px;
       padding: 0;
       margin: 0;
@@ -595,8 +597,7 @@ and (orientation: portrait) {
     }
 
   .nav-piatti nav ul li a{
-    display: block;
-    text-align: center;
+    display: inline-block;
     padding: 8px 18px;
     border: 2px solid #333;
     border-radius: 50px;
@@ -611,10 +612,9 @@ and (orientation: portrait) {
     border-color: #ffc107;
   }
 
-  .nav-piatti nav ul li:nth-child(3){
-    flex-basis: 100%;
-    width: 0;
-    height: 0;
+  .nav-piatti nav ul li{
+    flex-basis: 0 0 auto;
+    margin: 0;
   }
 }
   
