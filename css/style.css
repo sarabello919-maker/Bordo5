@@ -819,10 +819,6 @@ and (orientation: portrait) {
     padding: 10px 37px;
     font-size: 16px;
 }
-
-.testo-lungo{
-  text-align: justify !important;
-}
 }
 
 /*-----------------------------------------------------------------*/
