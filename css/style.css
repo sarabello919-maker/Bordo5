@@ -640,6 +640,10 @@ and (orientation: portrait) {
     color: #ffc107!important;
     border-color: #222!important;
   }
+  
+.col-12 > p.m-0.text-black.fs-5.pt-4 {
+    text-align: center !important;
+}
 }
   
 /*soluzione tablet menu verticale*/
@@ -843,4 +847,26 @@ and (orientation: portrait) {
 
 .bordo5-text span {
     display: inline;
+}
+
+
+@media (max-width: 767px) {
+
+    .blocco-recensioni {
+        height: auto;
+        min-height: 420px;
+    }
+
+    .recensioni,
+    .carousel,
+    .carousel-inner,
+    .carousel-item {
+        height: auto;
+    }
+
+    .recensione-box {
+        height: auto;
+        min-height: 420px;
+    }
+
 }
