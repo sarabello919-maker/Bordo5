@@ -839,6 +839,8 @@ and (orientation: portrait) {
     text-decoration: none !important;
 }
 
+/*PROBLEMA: TESTI SMARTPHONE*/
+
 .bordo5-text span {
     display: inline;
 }
