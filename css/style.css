@@ -838,3 +838,7 @@ and (orientation: portrait) {
     color: #ffc107 !important;
     text-decoration: none !important;
 }
+
+.bordo5-text span {
+    display: inline;
+}
