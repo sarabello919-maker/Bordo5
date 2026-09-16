@@ -640,10 +640,6 @@ and (orientation: portrait) {
     color: #ffc107!important;
     border-color: #222!important;
   }
-  
-.col-12 > p.m-0.text-black.fs-5.pt-4 {
-    text-align: center !important;
-}
 }
   
 /*soluzione tablet menu verticale*/
@@ -849,6 +845,7 @@ and (orientation: portrait) {
     display: inline;
 }
 
+/*PROBLEMA: NOMI RECENSIONI*/
 
 @media (max-width: 767px) {
 
