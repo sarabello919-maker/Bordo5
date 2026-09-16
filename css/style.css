@@ -821,7 +821,7 @@ and (orientation: portrait) {
 }
 
 .testo-lungo{
-  text-align: left!important;
+  text-align: justify !important;
 }
 }
 
