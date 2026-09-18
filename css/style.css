@@ -113,9 +113,10 @@ nav li a:hover{
   text-transform: uppercase;
 }
 
+
 .dropdown button:hover{
   background-color: transparent !important;
-  text-decoration: none;
+  text-decoration: none !important;
   color: #111 !important;
   border: 3px solid #111;
 }
@@ -831,7 +832,7 @@ and (orientation: portrait) {
 .dropdown a:focus,
 .dropdown a:active {
     color: #111 !important;
-    text-decoration: none !important;
+   /* text-decoration: none !important;*/
 }
 
 .dropdown a:hover {
@@ -866,12 +867,4 @@ and (orientation: portrait) {
         min-height: 420px;
     }
 
-}
-
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-    #nav .dropdown button {
-        cursor: pointer;
-        touch-action: manipulation;
-    }
 }
