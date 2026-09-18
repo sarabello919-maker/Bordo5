@@ -100,3 +100,14 @@ btn.addEventListener("click", () => {
 //hamburger
 
 
+document.addEventListener("DOMContentLoaded", function() {
+    const phoneLinks = document.querySelectorAll('.dropdown-menu a[href^="tel:"]');
+    phoneLinks.forEach(function(link){
+        link.addEventListener('click', function(e){
+            e.preventDefault();
+            window.location.href = this.href;
+        });
+    });
+});
+
+//verifica se cosi su tablet funziona
