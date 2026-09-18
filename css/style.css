@@ -124,7 +124,7 @@ nav li a:hover{
 .dropdown-menu a:hover{
   font-weight: bold;
   background-color: #fff;
-  color: #ffc107;
+  color: #ffc107!important;
 }
 
 .hamburger{
@@ -824,21 +824,6 @@ and (orientation: portrait) {
 
 /*-----------------------------------------------------------------*/
 
-
-/* PROBLEMA : COLORE LINK PRENOTA */
-
-.dropdown a,
-.dropdown a:visited,
-.dropdown a:focus,
-.dropdown a:active {
-    color: #111 !important;
-   /* text-decoration: none !important;*/
-}
-
-.dropdown a:hover {
-    color: #ffc107 !important;
-    text-decoration: none !important;
-}
 
 /*PROBLEMA: TESTI SMARTPHONE*/
 
