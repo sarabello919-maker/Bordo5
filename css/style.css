@@ -824,13 +824,12 @@ and (orientation: portrait) {
 
 /*-----------------------------------------------------------------*/
 
-
 /*PROBLEMA: TESTI SMARTPHONE*/
 
 .bordo5-text span {
     display: inline;
 }
-/*PROBLEMA: NOMI RECENSIONI*/
+/*PROBLEMA: NOMI RECENSIONI SU MOBILE*/
 
 @media (max-width: 767px) {
 
