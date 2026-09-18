@@ -830,7 +830,6 @@ and (orientation: portrait) {
 .bordo5-text span {
     display: inline;
 }
-
 /*PROBLEMA: NOMI RECENSIONI*/
 
 @media (max-width: 767px) {
