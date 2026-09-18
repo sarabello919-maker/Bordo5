@@ -852,13 +852,3 @@ and (orientation: portrait) {
     }
 
 }
-
-
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    .dropdown-menu a[href^="tel:"] {
-        pointer-events: auto !important;
-        cursor: pointer;
-    }
-}
-
