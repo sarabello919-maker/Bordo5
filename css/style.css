@@ -72,15 +72,16 @@ header{
 }
 
 /* MENU */
-nav ul{
-  font-family: Quicksand;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  margin: 0;
-  padding: 0;
+nav ul {
+    font-family: Quicksand;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
+
 
 /* LINK */
 nav li a{
@@ -130,6 +131,8 @@ nav li a:hover{
 }
 */
 
+/* ------------------------------------------------*/
+
 /* DROPDOWN */
 
 .dropdown {
@@ -155,9 +158,9 @@ nav li a:hover{
     color: #111;
 
     font-family: Quicksand;
-    font-size: 18px;
+    font-size: 16px;
 
-    padding: 8px 10px;
+    padding: 5px 8px;
     border-radius: 20px;
 
     cursor: pointer;
@@ -235,6 +238,7 @@ nav li a:hover{
     display: block;
 }
 
+
 /* ------------------------------------------------*/
 
 .hamburger{
@@ -245,15 +249,6 @@ nav li a:hover{
   background:none;
   border:none;
   cursor:pointer;
-}
-
-/* desktop */
-nav ul{
-  display:flex;
-  gap:30px;
-  list-style:none;
-  margin:0;
-  padding:0;
 }
 
 /* --------------------------------chiudee header------------------------------------------------------------------*/
@@ -596,10 +591,6 @@ main{
     gap: 25px;
   }
 
-  .dropdown button {
-    font-size: 16px;
-  }
-
   .nav-piatti a {
     font-size: 20px;
   }
@@ -930,6 +921,11 @@ and (orientation: portrait) {
     padding: 10px 37px;
     font-size: 16px;
 }
+
+  .dropdown-btn {
+        font-size: 14px;
+        padding: 4px 8px;
+    }
 }
 
 /*-----------------------------------------------------------------*/
