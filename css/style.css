@@ -97,7 +97,9 @@ nav li a:hover{
   text-decoration-thickness: 2px;
 }
 
+
 /* DROPDOWN */
+/*
 .dropdown-toggle::after{
   display: none;
 }
@@ -126,6 +128,114 @@ nav li a:hover{
   background-color: #fff;
   color: #ffc107!important;
 }
+*/
+
+/* DROPDOWN */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* NASCONDE IL CHECKBOX */
+
+#dropdown-toggle {
+    display: none;
+}
+
+
+/* BOTTONE */
+
+.dropdown-btn {
+    display: inline-block;
+
+    background-color: #ffc107;
+    border: 3px solid #ffc107;
+    color: #111;
+
+    font-family: Quicksand;
+    font-size: 18px;
+
+    padding: 8px 10px;
+    border-radius: 20px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+
+    text-transform: uppercase;
+}
+
+
+/* HOVER BOTTONE */
+
+.dropdown-btn:hover {
+    background-color: transparent;
+    border-color: #111;
+    color: #111;
+}
+
+
+/* MENU */
+
+.dropdown-menu {
+    display: none;
+
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+
+    min-width: 90px;
+
+    margin: 0;
+    padding: 8px 0;
+
+    background-color: #fff;
+
+    border-radius: 10px;
+
+    list-style: none;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+
+    z-index: 1000;
+}
+
+
+/* LINK */
+
+.dropdown-menu a {
+    display: block;
+
+    padding: 10px 15px;
+
+    color: #111;
+    text-decoration: none;
+
+    font-family: Quicksand-regular;
+    font-size: 18px;
+
+    white-space: nowrap;
+}
+
+
+/* HOVER LINK */
+
+.dropdown-menu a:hover {
+    background-color: #fff;
+    color: #ffc107;
+    font-weight: bold;
+}
+
+
+/* APERTURA DEL MENU */
+
+#dropdown-toggle:checked ~ .dropdown-menu {
+    display: block;
+}
+
+/* ------------------------------------------------*/
 
 .hamburger{
   display:none;
