@@ -365,11 +365,10 @@ footer{
     text-align: center;
 }
 
-footer p{
-    display: flex;
-    justify-content: center;
+footer p {
     color: #fff;
     font-size: 18px;
+    margin: 8px 0; 
 }
 
 
@@ -403,6 +402,7 @@ footer hr{
 
 
 /*--------------------footer crediti-----------------------------------------------------------*/
+
 .crediti {
     text-align: center;
     padding: 20px;
@@ -411,22 +411,23 @@ footer hr{
     line-height: 1.6;
 }
 
-.crediti div {
+.crediti p {
+    color: #999;
+    font-size: 15px;
+}
+
+.crediti .gruppo-crediti {
+    margin-top: 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    column-gap: 2px; /* Riduce al minimo lo spazio tra gli elementi in flexbox */
-}
-
-.crediti p {
-    color: #999;
-    font-size: 16px;
+    gap: 4px; 
 }
 
 .crediti a {
     color: #999;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .crediti a:hover {
