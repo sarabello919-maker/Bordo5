@@ -415,14 +415,13 @@ footer hr{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 4px;
+    column-gap: 2px; /* Riduce al minimo lo spazio tra gli elementi in flexbox */
 }
 
-.crediti p{
+.crediti p {
     color: #999;
     font-size: 16px;
 }
-
 
 .crediti a {
     color: #999;
